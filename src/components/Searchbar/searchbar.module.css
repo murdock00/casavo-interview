@@ -1,0 +1,58 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 300px;
+}
+
+.inputContainer>span {
+font-size: medium;
+}
+
+.input {
+  text-align: center;
+  width: 300px;
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ff991f;
+}
+
+.suggestText {
+  text-align: center;
+  font-family: cursive;
+  font-weight: 100;
+  font-size: 8px;
+}
+
+.results {
+  padding: 10px;
+  height: 200px;
+  width: 300px;
+  background-color: #ff991f;
+  position: absolute;
+  bottom: -250px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.product{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  margin: 6px 0;
+  padding: 6px 0;
+}
